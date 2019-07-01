@@ -1,6 +1,6 @@
 package capture5;
 
-/**
+/**未完,等学习完堆后继续`
  * 堆排序
  * 算法描述:
  * 1.将初始待排序的关键字序列(R1,R2...Rn)构建成大顶堆,此堆为初始的无序区
@@ -11,6 +11,7 @@ package capture5;
  * 不断重复此过程直到有序区的元素个数为n-1时,排序完成
  */
 public class HeapSort {
+    private static int len;
     public static void main(String[] args) {
 
     }
@@ -39,7 +40,7 @@ public class HeapSort {
 
     private static void changeHeap(int[] array, int i) {
         int maxIndex = i;
-        if(i*2<len && array[i]*2>array[maxIndex])
+        if(i*2<len && array[i]*2>array[maxIndex]){}
     }
 
     private static void adjustHeap(int[] array, int i) {
